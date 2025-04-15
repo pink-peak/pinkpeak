@@ -18,7 +18,7 @@ export default function Intro() {
     >
       <div className="relative w-[80vw] h-[80vh]">
         <Image
-          src="/logo.png"
+          src="/namelogo.png"
           alt="Intro Cover"
           fill
           className="object-contain hover:scale-105 transition-transform duration-500"

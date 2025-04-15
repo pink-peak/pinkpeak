@@ -34,7 +34,7 @@ export default function Home() {
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <h1 className="text-sm text-zinc-500 ">
+        <h2 className="text-xl text-zinc-400 font-semibold">
               SOUND STORY STAY
 {/*           I'm building{" "}
           <Link
@@ -44,7 +44,7 @@ export default function Home() {
           >
             unkey.dev
           </Link> to solve API authentication and authorization for developers. */}
-        </h1>
+        </h2>
       </div>
     </div>
   );

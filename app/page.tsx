@@ -19,8 +19,8 @@ export default function Intro() {
       <Image
         src="/logo.png"
         alt="Intro Cover"
-        width={800}
-        height={800}
+        width={1200}
+        height={1200}
         priority
         className="hover:scale-105 transition-transform duration-500"
       />

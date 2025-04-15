@@ -28,10 +28,13 @@ module.exports = {
 					},
 				},
 			},
+
+			// 👇 여기 폰트 수정
 			fontFamily: {
-				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
-				display: ["var(--font-calsans)"],
+				sans: ["Pretendard", ...defaultTheme.fontFamily.sans],
+				display: ["Pretendard", ...defaultTheme.fontFamily.sans],
 			},
+
 			backgroundImage: {
 				"gradient-radial":
 					"radial-gradient(50% 50% at 50% 50%, var(--tw-gradient-stops))",
@@ -59,7 +62,6 @@ module.exports = {
 						transform: "translateX(100%)",
 						opacity: "0%",
 					},
-
 					"30%": {
 						transform: "translateX(0%)",
 						opacity: "100%",
@@ -73,7 +75,6 @@ module.exports = {
 						transform: "translateX(-100%)",
 						opacity: "0%",
 					},
-
 					"30%": {
 						transform: "translateX(0%)",
 						opacity: "100%",
@@ -95,7 +96,6 @@ module.exports = {
 					"80%": {
 						opacity: "100%",
 					},
-
 					"100%": {
 						"line-height": "100%",
 						opacity: "100%",

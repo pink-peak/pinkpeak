@@ -8,7 +8,7 @@ export default function Intro() {
 
   return (
     <div
-      onClick={() => router.push('/home')}
+      onClick={() => router.push('/main')}
       className="w-screen h-screen flex items-center justify-center bg-black cursor-pointer"
     >
       <Image

@@ -41,26 +41,27 @@ export default async function ProjectsPage() {
     <div className="relative pb-16">
       <Navigation />
       <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
-        <div className="max-w-2xl mx-auto lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
-            ABOUT US 우리는 누구인가?
-          </h2>
-          <p className="mt-4 text-zinc-400">
+        <div className="max-w-3xl mx-auto lg:mx-0 space-y-6 text-zinc-300">
+          <h2 className="text-3xl font-bold text-white sm:text-4xl">ABOUT US 우리는 누구인가?</h2>
+          <p className="text-lg leading-relaxed">
             핑크피크는 공감적 사운드와 내러티브 미디어아트를 융합하는 창작 스튜디오입니다.
+          </p>
+          <p className="text-lg leading-relaxed">
             우리는 '소리'를 매개로 사람의 감정과 공간을 연결하고, 이야기와 감각이 겹쳐지는 순간을 디자인합니다.
           </p>
-          <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
-            PHILOSOPHY
-          </h2>
-          <p className="mt-4 text-zinc-400">
+        
+          <h2 className="text-3xl font-bold text-white sm:text-4xl mt-10">PHILOSOPHY</h2>
+          <p className="italic text-lg font-medium text-white">
             “사운드는 이야기를 만들고, 이야기는 공간을 채운다.”
-            
-            우리는 사람의 감정에 공명하는 공감적 사운드를 만듭니다.
-            모든 콘텐츠는 사운드를 기점으로 스토리텔링을 입고,
-            그 스토리는 결국 머물고 싶은 감각의 공간으로 완성됩니다.
-            
-            기술은 도구일 뿐, 우리의 중심엔 언제나 사람의 감정과 경험이 있습니다.
-            그리고 우리는 그 감정을 가장 깊게 연결할 수 있는 감각이 ‘소리’라고 믿습니다.
+          </p>
+          <ul className="list-disc list-inside space-y-2 pl-2 text-lg">
+            <li>우리는 사람의 감정에 공명하는 <b>공감적 사운드</b>를 만듭니다.</li>
+            <li>모든 콘텐츠는 사운드를 기점으로 <b>스토리텔링</b>을 입고,</li>
+            <li>그 스토리는 결국 <b>머물고 싶은 감각의 공간</b>으로 완성됩니다.</li>
+          </ul>
+          <p className="text-lg leading-relaxed">
+            기술은 도구일 뿐, 우리의 중심엔 언제나 <b>사람의 감정과 경험</b>이 있습니다.
+            그리고 우리는 그 감정을 가장 깊게 연결할 수 있는 감각이 <b>'소리'</b>라고 믿습니다.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />

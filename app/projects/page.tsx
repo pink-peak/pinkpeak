@@ -42,16 +42,15 @@ export default async function ProjectsPage() {
       <Navigation />
       <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
         <div className="max-w-3xl mx-auto lg:mx-0 space-y-6 text-zinc-300">
-          <h2 className="text-3xl font-bold text-white sm:text-4xl">ABOUT US 우리는 누구인가?</h2>
+          <h2 className="text-3xl font-bold text-white sm:text-4xl">ABOUT US  우리는 누구인가?</h2>
           <p className="text-lg leading-relaxed">
-            핑크피크는 공감적 사운드와 내러티브 미디어아트를 융합하는 창작 스튜디오입니다.
-          </p>
-          <p className="text-lg leading-relaxed">
+            핑크피크는 공감적 사운드와 내러티브 미디어아트를 융합하는 창작 스튜디오입니다.<br />
             우리는 '소리'를 매개로 사람의 감정과 공간을 연결하고, 이야기와 감각이 겹쳐지는 순간을 디자인합니다.
           </p>
+          <br />
         
           <h2 className="text-3xl font-bold text-white sm:text-4xl mt-10">PHILOSOPHY</h2>
-          <p className="italic text-lg font-medium text-white">
+          <p className="font-bold text-lg text-white mt-6">
             “사운드는 이야기를 만들고, 이야기는 공간을 채운다.”
           </p>
           <ul className="list-disc list-inside space-y-2 pl-2 text-lg">

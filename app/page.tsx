@@ -15,7 +15,7 @@ export default function Intro() {
         src="/logo.png"
         alt="Intro Cover"
         fill // 이미지가 부모 요소를 가득 채움
-        className="object-contain md:object-cover transition-transform duration-500"
+        className="object-contain p-8"
         priority
       />
     </div>

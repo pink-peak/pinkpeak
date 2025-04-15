@@ -59,7 +59,7 @@ export default async function ProjectsPage() {
             <li>그 스토리는 결국 <b>머물고 싶은 감각의 공간</b>으로 완성됩니다.</li>
           </ul>
           <p className="text-lg leading-relaxed">
-            기술은 도구일 뿐, 우리의 중심엔 언제나 <b>사람의 감정과 경험</b>이 있습니다.
+            기술은 도구일 뿐, 우리의 중심엔 언제나 <b>사람의 감정과 경험</b>이 있습니다.<br />
             그리고 우리는 그 감정을 가장 깊게 연결할 수 있는 감각이 <b>'소리'</b>라고 믿습니다.
           </p>
         </div>

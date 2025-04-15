@@ -16,14 +16,15 @@ export default function Intro() {
       onClick={handleClick}
       className="w-screen h-screen flex items-center justify-center bg-black cursor-pointer"
     >
-      <Image
-        src="/logo.png"
-        alt="Intro Cover"
-        width={1200}
-        height={1200}
-        priority
-        className="hover:scale-105 transition-transform duration-500"
-      />
+      <div className="relative w-[80vw] h-[80vh]">
+        <Image
+          src="/logo.png"
+          alt="Intro Cover"
+          fill
+          className="object-contain hover:scale-105 transition-transform duration-500"
+          priority
+        />
+      </div>
     </div>
   );
 }

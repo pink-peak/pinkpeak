@@ -18,7 +18,7 @@ export default function Intro() {
     >
       <div className="relative w-[80vw] h-[80vh]">
         <Image
-          src="/namelogo.png"
+          src="/new-image.png" // ✅ 바꾸고 싶은 이미지 이름
           alt="Intro Cover"
           fill
           className="object-contain hover:scale-105 transition-transform duration-500"
@@ -26,5 +26,6 @@ export default function Intro() {
         />
       </div>
     </div>
+
   );
 }

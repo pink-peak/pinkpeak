@@ -52,8 +52,8 @@ export default function Home() {
         <Image
           src="/namelogo.png"
           alt="PINKPEAK logo"
-          width={240}
-          height={80}
+          width={960}
+          height={320}
           className="mx-auto"
         />
       

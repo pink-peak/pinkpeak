@@ -50,22 +50,22 @@ export default function Home() {
           <div className="flex flex-col items-center space-y-6">
             <h2 className="text-4xl font-bold">사운드</h2>
             <div className="space-y-4 w-full">
-              <div className="box w-full max-w-xs px-6 py-5 text-xl">음악 프로듀서</div>
-              <div className="box w-full max-w-xs px-6 py-5 text-xl">싱어송라이터</div>
+              <div className="box w-full max-w-xs px-6 py-8 text-xl">음악 프로듀서</div>
+              <div className="box w-full max-w-xs px-6 py-8 text-xl">싱어송라이터</div>
             </div>
           </div>
           <div className="flex flex-col items-center space-y-6">
             <h2 className="text-4xl font-bold">기획</h2>
             <div className="space-y-4 w-full">
-              <div className="box w-full max-w-xs px-6 py-5 text-xl">영화 기획자</div>
-              <div className="box w-full max-w-xs px-6 py-5 text-xl">문화예술 기획자</div>
+              <div className="box w-full max-w-xs px-6 py-8 text-xl">영화 기획자</div>
+              <div className="box w-full max-w-xs px-6 py-8 text-xl">문화예술 기획자</div>
             </div>
           </div>
           <div className="flex flex-col items-center space-y-6">
             <h2 className="text-4xl font-bold">기술구현</h2>
             <div className="space-y-4 w-full">
-              <div className="box w-full max-w-xs px-6 py-5 text-xl">디자이너</div>
-              <div className="box w-full max-w-xs px-6 py-5 text-xl">프로그래머</div>
+              <div className="box w-full max-w-xs px-6 py-8 text-xl">디자이너</div>
+              <div className="box w-full max-w-xs px-6 py-8 text-xl">프로그래머</div>
             </div>
           </div>
         </div>

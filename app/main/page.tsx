@@ -16,10 +16,25 @@ export default function Home() {
   return (
     <>
       {/* 상단 네비게이션 */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-zinc-200 py-3">
+{/*       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-zinc-200 py-3">
         <ul className="flex items-center gap-6 text-base text-zinc-500 hover:text-zinc-300">
           {navigation.map((item) => (
             <Link key={item.href} href={item.href}>
+              {item.name}
+            </Link>
+          ))}
+        </ul>
+      </nav> */}
+        
+      {/* 고정 상단 내비게이션 - 가운데 정렬 + 투명 배경 */}
+      <nav className="fixed top-8 left-0 right-0 z-50 flex justify-center">
+        <ul className="flex items-center gap-10 text-base text-white font-medium">
+          {navigation.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="hover:text-zinc-300 transition-colors duration-300"
+            >
               {item.name}
             </Link>
           ))}

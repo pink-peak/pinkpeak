@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Particles from "../components/particles";
@@ -44,7 +45,13 @@ export default function Home() {
 
       {/* 구성도 섹션 */}
       <div id="team" className="min-h-screen bg-white text-black px-6 py-28 flex flex-col items-center justify-center space-y-20">
-        <h2 className="text-6xl font-extrabold tracking-tight">PINKPEAK</h2>
+        <Image
+          src="/namelogo.png"
+          alt="PINKPEAK logo"
+          width={240}
+          height={80}
+          className="mx-auto"
+        />
       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 text-center text-[1.75rem] font-semibold w-full max-w-6xl">
           <div className="flex flex-col items-center space-y-6">

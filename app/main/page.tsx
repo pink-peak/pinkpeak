@@ -28,7 +28,7 @@ export default function Home() {
         
       {/* 고정 상단 내비게이션 - 가운데 정렬 + 투명 배경 */}
       <nav className="fixed top-8 left-0 right-0 z-50 flex justify-center">
-        <ul className="flex items-center gap-10 text-base text-white font-medium">
+        <ul className="flex items-center gap-10 text-base text-[#D94874] font-medium">
           {navigation.map((item) => (
             <Link
               key={item.href}
@@ -41,7 +41,7 @@ export default function Home() {
         </ul>
       </nav>
         
-      <div className="relative flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black text-center px-4">
+      <div className="relative flex flex-col items-center justify-center w-screen h-screen overflow-hidden [#ECD9C6] text-center px-4">
         
         <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         
@@ -66,7 +66,7 @@ export default function Home() {
       </div>
 
       {/* 구성도 섹션 */}
-      <div id="team" className="min-h-screen bg-white text-black px-6 py-28 flex flex-col items-center justify-center space-y-20">
+      <div id="team" className="min-h-screen bg-[#ECD9C6] text-black px-6 py-28 flex flex-col items-center justify-center space-y-20">
 {/*         <Image
           src="/namelogo.png"
           alt="PINKPEAK logo"

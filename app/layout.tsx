@@ -65,8 +65,23 @@ export default function RootLayout({
     // <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
     <html lang="ko" className={[inter.variable, calSans.variable, pretendard.variable].join(" ")}>
       <head>
+        <link
+          rel="preload"
+          href="/fonts/Pretendard-Regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Pretendard-Bold.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
         <Analytics />
       </head>
+
       <body className="font-sans bg-black">
         {children}
       </body>

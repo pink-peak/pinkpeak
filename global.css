@@ -28,3 +28,14 @@
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   }
 }
+
+.box {
+  margin-bottom: 24px;
+  padding: 8px 12px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.border {
+  border: 2px solid #000; /* 1px → 2px or 3px */
+}

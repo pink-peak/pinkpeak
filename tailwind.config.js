@@ -30,10 +30,13 @@ module.exports = {
 			},
 
 			// 👇 여기 폰트 수정
-			fontFamily: {
-				sans: ["Pretendard", ...defaultTheme.fontFamily.sans],
-				display: ["Pretendard", ...defaultTheme.fontFamily.sans],
-			},
+			// fontFamily: {
+			// 	sans: ["Pretendard", ...defaultTheme.fontFamily.sans],
+			// 	display: ["Pretendard", ...defaultTheme.fontFamily.sans],
+			// },
+		      fontFamily: {
+		        sans: ['Pretendard', 'sans-serif'],
+		      },
 
 			backgroundImage: {
 				"gradient-radial":

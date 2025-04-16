@@ -54,11 +54,18 @@ export default function Home() {
         <Image
           src="/namelogo.png"
           alt="PINKPEAK logo"
+          width={960} // 이전의 4배
+          height={320}
+          className="mx-auto"
+        />
+{/*         <Image
+          src="/namelogo.png"
+          alt="PINKPEAK logo"
           width={0}
           height={0}
           sizes="100vw"
           className="w-[480px] h-auto mx-auto"
-        />
+        /> */}
       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 text-center text-[1.75rem] font-semibold w-full max-w-6xl">
           <div className="flex flex-col items-center space-y-6">

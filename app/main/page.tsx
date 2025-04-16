@@ -23,11 +23,13 @@ export default function Home() {
           ))}
         </ul>
       </nav>
-      <div className="animate-fade-in space-y-4 text-center">
-        <Particles
-          className="absolute inset-0 -z-10 animate-fade-in"
-          quantity={100}
-        />
+      <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+      <Particles
+        className="absolute inset-0 -z-10 animate-fade-in"
+        quantity={100}
+      />
+      <div className="animate-fade-in text-center">
+      {/* 타이틀 + 서브타이틀 묶음 */}
         <div className="space-y-2">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white">
             SOUND. STORY. STAY.
@@ -39,6 +41,7 @@ export default function Home() {
         <p className="mt-8 text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto">
           핑크피크는 공감적 사운드와 미디어아트를 기반으로 새로운 감각의 콘텐츠를 만듭니다.
         </p>
+      </div>
 
 {/*       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">

@@ -46,26 +46,26 @@ export default function Home() {
       <div id="team" className="min-h-screen bg-white text-black px-6 py-28 flex flex-col items-center justify-center space-y-20">
         <h2 className="text-6xl font-extrabold tracking-tight">PINKPEAK</h2>
       
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 text-center text-[1.75rem] font-semibold">
-          <div>
-            <h2 className="text-4xl font-bold mb-6">사운드</h2>
-            <div className="space-y-4">
-              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">음악 프로듀서</div>
-              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">싱어송라이터</div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 text-center text-[1.75rem] font-semibold w-full max-w-6xl">
+          <div className="flex flex-col items-center space-y-6">
+            <h2 className="text-4xl font-bold">사운드</h2>
+            <div className="space-y-4 w-full">
+              <div className="box w-full max-w-xs px-6 py-4 text-lg">음악 프로듀서</div>
+              <div className="box w-full max-w-xs px-6 py-4 text-lg">싱어송라이터</div>
             </div>
           </div>
-          <div>
-            <h2 className="text-4xl font-bold mb-6">기획</h2>
-            <div className="space-y-4">
-              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">영화 기획자</div>
-              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">문화예술 기획자</div>
+          <div className="flex flex-col items-center space-y-6">
+            <h2 className="text-4xl font-bold">기획</h2>
+            <div className="space-y-4 w-full">
+              <div className="box w-full max-w-xs px-6 py-4 text-lg">영화 기획자</div>
+              <div className="box w-full max-w-xs px-6 py-4 text-lg">문화예술 기획자</div>
             </div>
           </div>
-          <div>
-            <h2 className="text-4xl font-bold mb-6">기술구현</h2>
-            <div className="space-y-4">
-              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">디자이너</div>
-              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">프로그래머</div>
+          <div className="flex flex-col items-center space-y-6">
+            <h2 className="text-4xl font-bold">기술구현</h2>
+            <div className="space-y-4 w-full">
+              <div className="box w-full max-w-xs px-6 py-4 text-lg">디자이너</div>
+              <div className="box w-full max-w-xs px-6 py-4 text-lg">프로그래머</div>
             </div>
           </div>
         </div>

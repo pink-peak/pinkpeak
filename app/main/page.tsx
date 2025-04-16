@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
-import Particles from "../../components/particles"; // 경로 주의!
+import Particles from "./components/particles"; // 경로 주의!
 
 const navigation = [
   { name: "Projects", href: "/projects" },

@@ -64,7 +64,7 @@ export default function Home() {
             <h2 className="text-4xl font-bold">기술구현</h2>
             <div className="space-y-4 w-full">
               <div className="box w-full max-w-xs px-6 py-5 text-xl">디자이너</div>
-              <div className="box w-full max-w-xs px-6 py-4 text-lg"><div className="box w-full max-w-xs px-6 py-5 text-xl">프로그래머</div>
+              <div className="box w-full max-w-xs px-6 py-5 text-xl">프로그래머</div>
             </div>
           </div>
         </div>

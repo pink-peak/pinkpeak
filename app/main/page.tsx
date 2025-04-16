@@ -29,23 +29,29 @@ export default function Home() {
         quantity={100}
       />
       <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-        PINK PEAK
+        SOUND. STORY. STAY.
       </h1>
+      <p className="text-lg sm:text-xl text-zinc-300 font-medium">
+        듣고 느끼고 머문다
+      </p>
+      <p className="text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto">
+        핑크피크는 공감적 사운드와 미디어아트를 기반으로 새로운 감각의 콘텐츠를 만듭니다.
+      </p>
 
-      <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+{/*       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-xl text-zinc-400 font-semibold">
               SOUND STORY STAY
-{/*           I'm building{" "}
+{           I'm building{" "}
           <Link
             target="_blank"
             href="https://unkey.dev"
             className="underline duration-500 hover:text-zinc-300"
           >
             unkey.dev
-          </Link> to solve API authentication and authorization for developers. */}
+          </Link> to solve API authentication and authorization for developers. }
         </h2>
-      </div>
+      </div> */}
     </div>
   );
 

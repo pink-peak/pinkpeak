@@ -23,21 +23,22 @@ export default function Home() {
           ))}
         </ul>
       </nav>
-      <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <Particles
-        className="absolute inset-0 -z-10 animate-fade-in"
-        quantity={100}
-      />
-      <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white">
-        SOUND. STORY. STAY.
-      </h1>
-      <p className="text-lg sm:text-xl text-zinc-300 font-medium">
-        듣고 느끼고 머문다
-      </p>
-      <br/>
-      <p className="text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto">
-        핑크피크는 공감적 사운드와 미디어아트를 기반으로 새로운 감각의 콘텐츠를 만듭니다.
-      </p>
+      <div className="animate-fade-in space-y-4 text-center">
+        <Particles
+          className="absolute inset-0 -z-10 animate-fade-in"
+          quantity={100}
+        />
+        <div className="space-y-2">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white">
+            SOUND. STORY. STAY.
+          </h1>
+          <p className="text-xl sm:text-2xl md:text-3xl text-zinc-200 font-semibold">
+            듣고 느끼고 머문다
+          </p>
+        </div>
+        <p className="mt-8 text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto">
+          핑크피크는 공감적 사운드와 미디어아트를 기반으로 새로운 감각의 콘텐츠를 만듭니다.
+        </p>
 
 {/*       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">

@@ -50,22 +50,22 @@ export default function Home() {
           <div>
             <h2 className="text-4xl font-bold mb-6">사운드</h2>
             <div className="space-y-4">
-              <div className="box">음악 프로듀서</div>
-              <div className="box">싱어송라이터</div>
+              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">음악 프로듀서</div>
+              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">싱어송라이터</div>
             </div>
           </div>
           <div>
             <h2 className="text-4xl font-bold mb-6">기획</h2>
             <div className="space-y-4">
-              <div className="box">영화 기획자</div>
-              <div className="box">문화예술 기획자</div>
+              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">영화 기획자</div>
+              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">문화예술 기획자</div>
             </div>
           </div>
           <div>
             <h2 className="text-4xl font-bold mb-6">기술구현</h2>
             <div className="space-y-4">
-              <div className="box">디자이너</div>
-              <div className="box">프로그래머</div>
+              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">디자이너</div>
+              <div className="inline-block px-8 py-5 border border-gray-400 rounded-xl text-2xl font-semibold min-w-[240px] text-center shadow-md">프로그래머</div>
             </div>
           </div>
         </div>

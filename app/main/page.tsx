@@ -11,6 +11,7 @@ const navigation = [
 
 export default function Home() {
   return (
+    <>
       <div className="relative flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black text-center px-4">
         {/* 상단 네비게이션 */}
         <nav className="absolute top-8 left-0 right-0 flex justify-center z-10 animate-fade-in">

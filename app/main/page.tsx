@@ -25,7 +25,7 @@ export default function Home() {
           </ul>
         </nav>
 
-        <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+        <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         
         {/* 배경 파티클 */}
         <Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={500} />
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         
         {/* 본문 텍스트 */}
-        <div className="space-y-6 w-full flex flex-col items-center justify-center text-center">
+        <div className="space-y-6 w-full flex flex-col items-center justify-center text-center animate-fade-in">
           <h1 className="text-[6.3vw] font-extrabold text-white leading-tight tracking-tight whitespace-nowrap">
             SOUND. STORY. STAY.
           </h1>

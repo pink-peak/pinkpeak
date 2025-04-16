@@ -28,12 +28,13 @@ export default function Home() {
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+      <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white">
         SOUND. STORY. STAY.
       </h1>
       <p className="text-lg sm:text-xl text-zinc-300 font-medium">
         듣고 느끼고 머문다
       </p>
+      <br/>
       <p className="text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto">
         핑크피크는 공감적 사운드와 미디어아트를 기반으로 새로운 감각의 콘텐츠를 만듭니다.
       </p>

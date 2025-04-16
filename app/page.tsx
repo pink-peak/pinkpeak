@@ -9,7 +9,7 @@ export default function Intro() {
   return (
     <div
       onClick={() => router.push('/main')}
-      className="w-screen h-screen flex items-center justify-center bg-black cursor-pointer"
+      className="w-screen h-screen flex items-center justify-center bg-[#EAD7C4] cursor-pointer"
     >
       <Image
         src="/logo.png"

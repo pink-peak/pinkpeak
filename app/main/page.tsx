@@ -15,6 +15,17 @@ const navigation = [
 export default function Home() {
   return (
     <>
+      {/* 상단 네비게이션 */}
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-zinc-200 py-3">
+        <ul className="flex items-center gap-6 text-base text-zinc-500 hover:text-zinc-300">
+          {navigation.map((item) => (
+            <Link key={item.href} href={item.href}>
+              {item.name}
+            </Link>
+          ))}
+        </ul>
+      </nav>
+        
       <div className="relative flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black text-center px-4">
         
         <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
@@ -48,17 +59,6 @@ export default function Home() {
           height={320}
           className="mx-auto"
         /> */}
-        
-        {/* 상단 네비게이션 */}
-        <nav className="absolute top-8 left-0 right-0 flex justify-center z-10 animate-fade-in">
-          <ul className="flex items-center gap-6 text-base text-zinc-500 hover:text-zinc-300">
-            {navigation.map((item) => (
-              <Link key={item.href} href={item.href}>
-                {item.name}
-              </Link>
-            ))}
-          </ul>
-        </nav>
         
         <Image
           src="/namelogo.png"

@@ -1,3 +1,14 @@
+'use client';
+
+import Link from "next/link";
+import React from "react";
+import Particles from "../components/particles";
+
+const navigation = [
+  { name: "Projects", href: "/projects" },
+  { name: "Contact", href: "/contact" },
+];
+
 export default function Home() {
   return (
     <>

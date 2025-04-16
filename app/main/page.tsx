@@ -48,29 +48,29 @@ export default function Home() {
       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 text-center text-[1.75rem] font-semibold">
           <div>
-            <h3 className="text-4xl font-bold mb-6">사운드</h3>
+            <h2 className="text-4xl font-bold mb-6">사운드</h2>
             <div className="space-y-4">
-              <div className="border px-8 py-4 rounded-md text-2xl">음악 프로듀서</div>
-              <div className="border px-8 py-4 rounded-md text-2xl">싱어송라이터</div>
+              <div className="border px-8 py-4 rounded-md text-4xl">음악 프로듀서</div>
+              <div className="border px-8 py-4 rounded-md text-4xl">싱어송라이터</div>
             </div>
           </div>
           <div>
-            <h3 className="text-4xl font-bold mb-6">기획</h3>
+            <h2 className="text-4xl font-bold mb-6">기획</h2>
             <div className="space-y-4">
-              <div className="border px-8 py-4 rounded-md text-2xl">영화 기획자</div>
-              <div className="border px-8 py-4 rounded-md text-2xl">문화예술 기획자</div>
+              <div className="border px-8 py-4 rounded-md text-4xl">영화 기획자</div>
+              <div className="border px-8 py-4 rounded-md text-4xl">문화예술 기획자</div>
             </div>
           </div>
           <div>
-            <h3 className="text-4xl font-bold mb-6">기술구현</h3>
+            <h2 className="text-4xl font-bold mb-6">기술구현</h2>
             <div className="space-y-4">
-              <div className="border px-8 py-4 rounded-md text-2xl">디자이너</div>
-              <div className="border px-8 py-4 rounded-md text-2xl">프로그래머</div>
+              <div className="border px-8 py-4 rounded-md text-4xl">디자이너</div>
+              <div className="border px-8 py-4 rounded-md text-4xl">프로그래머</div>
             </div>
           </div>
         </div>
       
-        <div className="space-y-6 text-center mt-16 text-2xl text-zinc-700 font-semibold max-w-5xl leading-relaxed">
+        <div className="space-y-6 text-center mt-16 text-4xl text-zinc-700 max-w-5xl leading-relaxed">
           <p>사운드 제작, 스토리 기획, 기술 구현까지 A to Z가 가능한 창작 집단</p>
           <p>탄탄한 사운드와 내러티브한 미디어아트를 연결하고 가치관 공유</p>
         </div>

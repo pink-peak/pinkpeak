@@ -32,10 +32,10 @@ export default function Home() {
         <h1 className="text-[6.2vw] font-extrabold text-white leading-tight tracking-tight whitespace-nowrap">
           SOUND. STORY. STAY.
         </h1>
-        <p className="text-[3.0vw] text-white font-semibold whitespace-nowrap">
+        <p className="text-[2.0vw] text-white font-semibold whitespace-nowrap">
           듣고 느끼고 머문다
         </p>
-        <br/>
+        <br/><br/><br/>
         <p className="text-[2.3vw] text-zinc-400 font-medium tracking-wide whitespace-nowrap">
           핑크피크는 공감적 사운드와 미디어아트를 기반으로 새로운 감각의 콘텐츠를 만듭니다.
         </p>

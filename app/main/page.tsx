@@ -8,7 +8,7 @@ import React from "react";
 import Particles from "../components/particles";
 
 const navigation = [
-  { name: "Projects", href: "/projects" },
+  { name: "Pinkpeak", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];
 

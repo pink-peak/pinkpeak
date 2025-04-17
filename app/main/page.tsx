@@ -84,7 +84,7 @@ export default function Home() {
           className="w-[480px] h-auto mx-auto"
         />
       
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 text-center text-[1.75rem] font-semibold w-full max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 text-center text-[1.75rem] font-semibold w-full max-w-6xl text-white">
           <div className="flex flex-col items-center space-y-6">
             <h2 className="text-4xl font-bold">사운드</h2>
             <div className="space-y-4 w-full">
@@ -108,7 +108,7 @@ export default function Home() {
           </div>
         </div>
       
-        <div className="space-y-6 text-center mt-16 text-4xl text-zinc-700 max-w-5xl leading-relaxed">
+        <div className="space-y-6 text-center mt-16 text-4xl text-zinc-700 max-w-5xl leading-relaxed text-white">
           <p>사운드 제작, 스토리 기획, 기술 구현까지 A to Z가 가능한 창작 집단</p>
           <p>탄탄한 사운드와 내러티브한 미디어아트를 연결하고 가치관 공유</p>
         </div>

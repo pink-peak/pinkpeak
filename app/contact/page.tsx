@@ -1,27 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Bank, Mail, Instagram } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <Instagram size={20} />,
+		href: "https://instagram.com/pinkpeak.art",
+		label: "Instagram",
+		handle: "@pinkpeak.art",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "official@pinkpeak.art",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "official@pinkpeak.art",
 	},
 	{
-		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
-		label: "Github",
-		handle: "chronark",
+		icon: <Bank size={20} />,
+		// href: "https://github.com/chronark",
+		label: "신한 110-359-068331",
+		handle: "후원계좌",
 	},
 ];
 

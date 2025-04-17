@@ -19,7 +19,7 @@ const socials = [
 	},
 	{
 		icon: <DollarSign size={20} />,
-		// href: "https://github.com/chronark",
+		href: "https://www.shinhan.com/",
 		label: "신한 110-359-068331",
 		handle: "후원계좌",
 	},

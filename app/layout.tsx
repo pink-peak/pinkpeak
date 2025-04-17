@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "PINKPEAK",
     images: [
       {
-        src: "/logo.png",
+        url: "/logo.png",
         width: 1920,
         height: 1080,
       },

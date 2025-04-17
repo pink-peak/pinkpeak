@@ -108,7 +108,7 @@ export default function Home() {
           </div>
         </div>
       
-        <div className="space-y-6 text-center mt-16 text-4xl max-w-5xl leading-relaxed text-white">
+        <div className="space-y-6 text-center mt-16 text-xl md:text-4xl max-w-5xl leading-relaxed text-white">
           <p>사운드 제작, 스토리 기획, 기술 구현까지 A to Z가 가능한 창작 집단</p>
           <p>탄탄한 사운드와 내러티브한 미디어아트를 연결하고 가치관 공유</p>
         </div>

@@ -7,19 +7,19 @@ import { pretendard } from "./fonts";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "PINKPEAK",
+    template: "%s | PINKPEAK",
   },
   description: "Co-founder of unkey.dev and founder of planetfall.io",
   openGraph: {
-    title: "chronark.com",
+    title: "PINKPEAK",
     description:
       "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    url: "https://pinkpeak.art",
+    siteName: "PINKPEAK",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        src="/logo.png"
         width: 1920,
         height: 1080,
       },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/logo.png",
   },
 };
 const inter = Inter({

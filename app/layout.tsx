@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "PINKPEAK",
     images: [
       {
-        url: "/logo.png",
+        url: "/textlogo.png",
         width: 1920,
         height: 1080,
       },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/logo.png",
+    shortcut: "/textlogo.png",
   },
 };
 const inter = Inter({

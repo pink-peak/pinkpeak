@@ -20,8 +20,8 @@ const socials = [
 	{
 		icon: <DollarSign size={20} />,
 		href: "https://www.shinhan.com/",
-		label: "신한 110-359-068331",
-		handle: "후원계좌",
+		label: "후원계좌",
+		handle: "신한 110-359-068331",
 	},
 ];
 

@@ -82,7 +82,7 @@ export default function RootLayout({
         <Analytics />
       </head>
 
-      <body className="font-sans bg-[#ead7c4] text-black">
+      <body className="font-sans bg-black">
         {children}
       </body>
     </html>

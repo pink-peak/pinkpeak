@@ -66,7 +66,7 @@ export default function Home() {
       </div>
 
       {/* 구성도 섹션 */}
-      <div id="team" className="min-h-screen bg-white text-black px-6 py-28 flex flex-col items-center justify-center space-y-20">
+      <div id="team" className="min-h-screen px-6 py-28 flex flex-col items-center justify-center space-y-20">
 {/*         <Image
           src="/namelogo.png"
           alt="PINKPEAK logo"

@@ -1,5 +1,5 @@
 "use client";
-import { Bank, Mail, Instagram } from "lucide-react";
+import { DollarSign, Mail, Instagram } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -18,7 +18,7 @@ const socials = [
 		handle: "official@pinkpeak.art",
 	},
 	{
-		icon: <Bank size={20} />,
+		icon: <DollarSign size={20} />,
 		// href: "https://github.com/chronark",
 		label: "신한 110-359-068331",
 		handle: "후원계좌",
